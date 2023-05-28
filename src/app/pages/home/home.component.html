@@ -1,14 +1,35 @@
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
 <app-menu-title></app-menu-title>
 <div class="container__articles">
-    <div class="articles__main">
-        <app-big-card></app-big-card>
+    <div class="column">
+        <div class="articles__main">
+            <app-big-card id="1"
+            photoCover="https://img.olhardigital.com.br/wp-content/uploads/2021/03/Chris-Evans-como-Capitao-America-scaled.jpg"
+            cardTitle="Novo Filme de Capitão América Anunciado"
+            cardDescription="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam aspernatur, doloremque laudantium modi eaque soluta nobis facere odio velit quisquam dolorum natus culpa odit nemo officia esse fuga omnis quos?"
+            ></app-big-card>
+        </div>
     </div>
-    <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-    </div>
+   <div class="column">
+       <div class="articles__others">
+           <app-small-card
+           Id="1"
+           photoCover="https://patiohype.com.br/wp-content/uploads/2022/02/series-da-Marvel.jpg"
+           cardTitle="Novos Filmes da Marval Anunciados"
+           ></app-small-card>
+       </div>
+       <div class="articles__others">
+           <app-small-card
+           Id="2"
+           photoCover="https://thefilmmusicjam.files.wordpress.com/2021/10/spider-man-2002.jpeg?w=1568"
+           cardTitle="20 Anos do Lançamento do Filme do Homem Aranha"
+           ></app-small-card>
+       </div>
+       <div class="articles__others">
+           <app-small-card
+           Id="3"
+           photoCover="https://www.denofgeek.com/wp-content/uploads/2023/01/Jason-Voorhees-of-Friday-the-13th-in-Freddy-vs-Jason.jpeg?resize=768%2C432"
+           cardTitle="De Volta a Cristal Lake"
+           ></app-small-card>
+       </div>
+   </div>
 </div>

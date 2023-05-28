@@ -1,6 +1,7 @@
 .container__small-card {
     width: 700px;
     margin-bottom: 15px;
+    display: block;
 }
 
 .container__small-card_content {
